@@ -1,0 +1,40 @@
+6. What is the output of the following code examples?
+1)
+x=123
+for i in x:
+print(i)
+
+Output- ile "script.py", line 3
+    print(i)
+        ^
+IndentationError: expected an indented blo
+
+2)
+i = 0
+while i &lt; 5:
+print(i)
+i += 1
+if i == 3:
+break
+else:
+print(“error”)
+
+Output- File "script.py", line 3
+    print(i)
+        ^
+IndentationError: expected an indented block
+
+3) 
+count = 0
+while True:
+print(count)
+count += 1
+if count >= 5:
+
+Break
+
+Output- File "script.py", line 3
+    print(count)
+        ^
+IndentationError: expected an indented block
+
