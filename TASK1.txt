@@ -1,0 +1,46 @@
+1) Create three variables in a single line and assign different values to them and
+make sure their data types are invited differently. Like one is int, another one is float
+and last one is string.
+
+a, b, c= 1, 2.5, 'Charmi'
+
+2) Create a variable of value type complex and swap it with another variable
+whose value is an integer.
+
+x = 3
+y = 2j
+x, y = y, x
+print("x =",x)
+check type by print(type(x)) ---- This should now return class complex instead of int
+
+3) Swap two numbers using third variable as result name and do the same task
+without using any third variable.
+#Using 3rd Variable
+x = 5
+y = 10
+Result = x 
+x = y
+y = Result
+print ('New Value of x: {}'.format(x))
+print ('New Value of y: {}'.format(y))
+
+#without using 3rd variable
+x = 4
+y = 40
+x, y = y, x
+print("x =",x)
+print("y =",y)
+
+7. Create Variable using CamelCase, LadderCase and UPPERCASE.
+enterYourName = Charmi ---- CamelCase
+ENTERYOURNAME = Charmi ---- UPPERCASE
+enterYourName = Charmi ----- LadderCase
+
+8. If one data type value is assigned to ‘a’ variable and then a different data type
+value is assigned to ‘a’ again. Will it change the value. If Yes then Why?
+
+Yes same variable can be assigned to a different data type. Variable is an empty box and that can be reassigned any data type you wish to. Old value will be replaced with new value.
+
+
+
+
